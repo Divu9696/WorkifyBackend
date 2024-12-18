@@ -1,0 +1,131 @@
+[2024-12-08 20:11:12.003 +05:30] [Information] Starting the application...
+2024-12-08 20:11:12.003 +05:30 [INF] Starting the application...
+[2024-12-08 20:12:26.894 +05:30] [Information] Starting the application...
+2024-12-08 20:12:26.894 +05:30 [INF] Starting the application...
+[2024-12-08 20:20:33.512 +05:30] [Information] Starting the application...
+2024-12-08 20:20:33.512 +05:30 [INF] Starting the application...
+[2024-12-08 20:22:51.896 +05:30] [Information] Starting the application...
+2024-12-08 20:22:51.896 +05:30 [INF] Starting the application...
+[2024-12-08 20:26:54.787 +05:30] [Information] Starting the application...
+[2024-12-08 20:27:01.100 +05:30] [Warning] Failed to determine th2024-12-08 20:27:01.100 +05:30 [WRN] Failed to determine the https port for redirect.
+[2024-12-08 20:27:46.550 +05:30] [Information] Starting the application...
+2024-12-08 20:27:46.550 +05:30 [INF] Starting the application...
+[2024-12-08 20:29:11.093 +05:30] [Information] Starting the application...
+2024-12-08 20:29:11.093 +05:30 [INF] Starting the application...
+[2024-12-08 20:33:17.691 +05:30] [Information] Starting the application...
+2024-12-08 20:33:17.691 +05:30 [INF] Starting the application...
+[2024-12-08 20:38:49.682 +05:30] [Information] Starting the application...
+[2024-12-08 20:39:35.188 +05:30] [Warning] Failed to determine th2024-12-08 20:39:35.188 +05:30 [WRN] Failed to determine the https port for redirect.
+[2024-12-08 20:43:59.797 +05:30] [Information] Starting the application...
+[2024-12-08 20:44:09.127 +05:30] [Warning] Failed to determine th2024-12-08 20:44:09.127 +05[2024-12-08 20:51:03.337 +05:30] [Information] User registe2024-12-08 20:51:03.337 +05:30 [INF] User reg[2024-12-08 20:55:39.005 +05:30] [Warning] Invali2024-12-08 20:55:39.005 +05:30 [W[2024-12-08 20:56:01.185 +05:30] [Error] Er2024-12-08 20:56:01.185 +05:30 [ERR] Error occurred during login for email: user1@gmail.com
+System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'HS256', the key size must be greater than: '256' bits, key has '232' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at Workify.Helpers.TokenService.GenerateToken(UserResponseDTO user) in /Users/divyanshusingh/Desktop/Workify_Project/Workify/Helpers/TokenService.cs:line 41
+   at Workify.Controllers.AuthController.Login(LoginUserDTO loginDto) in /Users/divyanshusingh/Desktop/Workify_Project/Workify[2024-12-08 21:01:48.590 +05:30] [Error2024-12-08 21:01:48.590 +05:30 [ERR] Error occurred during login for email: user1@gmail.com
+System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'HS256', the key size must be greater than: '256' bits, key has '232' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at Workify.Helpers.TokenService.GenerateToken(UserResponseDTO user) in /Users/divyanshusingh/Desktop/Workify_Project/Workify/Helpers/TokenService.cs:line 41
+   at Workify.Controllers.AuthController.Login(LoginUserDTO loginDto) in /Users/divyanshusingh/Desktop/Workify_Project/Workify/Controllers/AuthController.cs:line 37
+[2024-12-08 21:04:18.365 +05:30] [Information] Starting the application...
+[2024-12-08 21:05:47.851 +05:30] [Warning] Failed to determine th2024-12-08 21:05:47.851 +05[2024-12-08 21:05:48.699 +05:30] [Information] User registe2024-12-08 21:05:48.699 +05:30 [INF] User reg[2024-12-08 21:06:20.867 +05:30] [Information] Us2024-12-08 21:06:20.867 +05:30 [INF] User u[2024-12-08 21:13:42.284 +05:30] [Infor2024-12-08 21:13:42.284 +05:30 [INF] Admin retrieved all users with role: Admin
+[2024-12-08 21:15:40.171 +05:30] [Information] Starting the application...
+[2024-12-08 21:16:55.413 +05:30] [Warning] Failed to determine th2024-12-08 21:16:55.413 +05[2024-12-08 21:17:22.443 +05:30] [Information] Admin retrie2024-12-08 21:17:22.443 +05:30 [2024-12-08 21:18:04.399 +05:30] [Information] Ad2024-12-08 21:18:04.399 +05:30 [INF] Admin r[2024-12-08 21:18:52.750 +05:30] [Infor2024-12-08 21:18:52.750 +05:30 [INF] User[2024-12-08 21:27:47.952 +05:2024-12-08 21:27:47.952 +05:30 [INF] Employer added successf[2024-12-08 21:28:12024-12-08 21:28:10.094 +05:30 [ERR] Error occurred while retrieving all employers.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Workify.Models.Employer, Workify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Workify.DTOs.EmployerDTO, Workify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Employer -> EmployerDTO
+Workify.Models.Employer -> Workify.DTOs.EmployerDTO
+   at lambda_method188(Closure, Employer, EmployerDTO, ResolutionContext)
+   at lambda_method187(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method187(Closure, Object, IEnumerable`1, ResolutionContext)
+   at Workify.Services.EmployerService.GetAllEmployersAsync() in /Users/divyanshusingh/Desktop/Workify_Project/Workify/Services/EmployerService.cs:line 37
+   at EmployerController.GetAllEmployers() in /Users/divyanshusingh/Desktop/Workify_Project/Workify/Controllers/EmployerControl[2024-12-08 21:2024-12-08 21:28:29.223 +05:30 [INF] Employer details retrieved for I[20242024-12-08 21:31:35.388 +05:30 [WRN] Invalid login attempt for email: user2
+2024-12-08 21:31:47.032 +05:30 [INF] User user2@gmail.com logged in successfully.
+2024-12-08 21:32:26.523 +05:30 [ERR] Error occurred while retrieving all employers.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Workify.Models.Employer, Workify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Workify.DTOs.EmployerDTO, Workify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Employer -> EmployerDTO
+Workify.Models.Employer -> Workify.DTOs.EmployerDTO
+   at lambda_method188(Closure, Employer, EmployerDTO, ResolutionContext)
+   at lambda_method187(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method187(Closure, Object, IEnumerable`1, ResolutionContext)
+   at Workify.Services.EmployerService.GetAllEmployersAsync() in /Users/divyanshusingh/Desktop/Workify_Project/Workify/Services/EmployerService.cs:line 37
+   at EmployerController.GetAllEmployers() in /Users/divyanshusingh/Desktop/Workify_Project/Workify/Controllers/EmployerController.cs:line 89
+2024-12-08 21:32:33.481 +05:30 [INF] Job Listing added successfully for EmployerId: 1
+2024-12-08 21:33:19.830 +05:30 [INF] Job Listing details retrieved for ID: 1
+2024-12-08 21:42:48.550 +05:30 [ERR] Error occurred while retrieving all employers.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Workify.Models.Employer, Workify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Workify.DTOs.EmployerDTO, Workify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Employer -> EmployerDTO
+Workify.Models.Employer -> Workify.DTOs.EmployerDTO
+   at lambda_method188(Closure, Employer, EmployerDTO, ResolutionContext)
+   at lambda_method187(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method187(Closure, Object, IEnumerable`1, ResolutionContext)
+   at Workify.Services.EmployerService.GetAllEmployersAsync() in /Users/divyanshusingh/Desktop/Workify_Project/Workify/Services/EmployerService.cs:line 37
+   at EmployerController.GetAllEmployers() in /Users/divyanshusingh/Desktop/Workify_Project/Workify/Controllers/EmployerController.cs:line 89
+trollers/EmployerController.cs:line 89
+[2024-12-08 21:45:00.304 +05:30] [Information] Starting the application...
+[2024-12-08 21:45:19.210 +05:30] [Warning] Failed to determine th2024-12-08 21:45:19.210 +05[2024-12-08 21:45:47.834 +05:30] [Information] User user2@g2024-12-08 21:45:47.834 +05:30 [I[2024-12-08 21:46:09.977 +05:30] [Error] Error oc2024-12-08 21:46:09.977 +05:30 [ERR] Error occurred while retrieving all employers.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Workify.Models.Employer, Workify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Workify.DTOs.EmployerDTO, Workify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Employer -> EmployerDTO
+Workify.Models.Employer -> Workify.DTOs.EmployerDTO
+   at lambda_method127(Closure, Employer, EmployerDTO, ResolutionContext)
+   at lambda_method126(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method126(Closure, Object, IEnumerable`1, ResolutionContext)
+   at Workify.Services.EmployerService.GetAllEmployersAsync() in /Users/divyanshusingh/Desktop/Workify_Project/Workify/Services/EmployerService.cs:line 37
+   at EmployerController.GetAllEmployers() in /Users/divyanshusingh/Desktop/Workify_Project/Workify/Controllers/EmployerController.cs:line 89
+[2024-12-08 21:51:18.875 +05:30] [Information] Starting the application...
+[2024-12-08 21:51:53.061 +05:30] [Warning] Failed to determine th2024-12-08 21:51:53.061 +05[2024-12-08 21:51:53.869 +05:30] [Information] User user2@g2024-12-08 21:51:53.869 +05:30 [I[2024-12-08 21:52:23.898 +05:30] [Information] Al2024-12-08 21:52:23.898 +05:30 [INF][2024-12-08 21:57:26.825 +05:30] [Infor2024-12-08 21:57:26.825 +05:30 [INF] User registered successfully[2024-12-08 21:57:48.043 +05:2024-12-08 21:57:48.043 +05:30 [INF] User user3@gmail.com logge[2024-12-08 21:58:12024-12-08 21:58:12.605 +05:30 [INF] Job Seeker added successfully for U[2024-12-2024-12-08 22:00:13.141 +05:30 [INF] Application submitted successfully for JobSeekerId: 1 and JobListingId: 1
+2024-12-08 22:00:29.325 +05:30 [INF] Applications retrieved successfully for JobSeekerId: 1
+2024-12-08 22:03:39.449 +05:30 [INF] Notifications retrieved successfully for UserId: 1
+2024-12-08 22:06:09.290 +05:30 [INF] Job Seeker added successfully for UserId: 1
+2024-12-08 22:06:45.153 +05:30 [INF] Application submitted successfully for JobSeekerId: 2 and JobListingId: 1
+y for JobSeekerId: 2 and JobListingId: 1
+[2024-12-08 22:17:58.389 +05:30] [Information] Starting the application...
+[2024-12-08 22:17:58.459 +05:30] [Warning] The WebRootPath was no2024-12-08 22:17:58.459 +05:30 [WRN] The WebRootPath was not found: /Users/divyanshusingh/Desktop/Workify[2024-12-08 22:18:38.562 +05:30] [Warning] Failed to determ2024-12-08 22:18:38.562 +05:30 [W[2024-12-08 22:18:39.351 +05:30] [Information] User u2024-12-08 22:18:39.351 +05:30 [INF] Us[2024-12-08 22:21:21.264 +05:30] [Informati2024-12-08 22:21:21.264 +05:30 [INF] Job Seeker added successfully for UserId: 1
+[2024-12-08 23:00:43.417 +05:30] [Information] Starting the application...
+[2024-12-08 23:02:49.353 +05:30] [Warning] Failed to determine th2024-12-08 23:02:49.353 +05[2024-12-08 23:02:50.152 +05:30] [Information] User user3@g2024-12-08 23:02:50.152 +05:30 [I[2024-12-08 23:03:15.580 +05:30] [Information] Jo2024-12-08 23:03:15.580 +05:30 [INF] Job Seeker added successfully for UserId: 2

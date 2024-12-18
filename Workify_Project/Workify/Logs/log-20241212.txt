@@ -1,0 +1,488 @@
+[2024-12-12 00:02:29.498 +05:30] [Warning] Invalid login attempt for email: user2
+[2024-12-12 00:02:43.904 +05:30] [Information] User user2@gmail.com logged i2024-12-12 00:02[2024-12-12 00:05:24.074 +05:30] [Information] Employer added succ2024-12-12 00:05:24.074[2024-12-12 00:06:30.988 +05:30] [Information] Employer 2024-12-12 00:06:30.988 +05:30 [I[2024-12-12 00:07:42.718 +05:30] [Information]2024-12-12 00:07:42.718 +05:30 [INF] Empl[2024-12-12 00:08:37.279 +05:30] [In2024-12-12 00:08:37.279 +05:30 [INF] All employer[2024-12-12 00:08:51.119 +2024-12-12 00:08:51.119 +05:30 [INF] Employer details retr[2024-12-12 00:12024-12-12 00:11:13.046 +05:30 [INF] Job Listing added successfully for Employer[2024-2024-12-12 00:12:06.835 +05:30 [INF] Job Listing added successfully for EmployerId: 1
+2024-12-12 00:12:26.174 +05:30 [INF] Job Listing details retrieved for ID: 2
+2024-12-12 00:12:38.693 +05:30 [INF] Job Listing details retrieved for ID: 1
+2024-12-12 00:12:50.058 +05:30 [INF] Job Listing details retrieved for ID: 3
+2024-12-12 00:13:12.806 +05:30 [ERR] Error occurred while filtering jobs.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Workify.Models.JobListing, Workify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Workify.DTOs.JobListingDTO, Workify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+JobListing -> JobListingDTO
+Workify.Models.JobListing -> Workify.DTOs.JobListingDTO
+   at lambda_method377(Closure, JobListing, JobListingDTO, ResolutionContext)
+   at lambda_method376(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method376(Closure, Object, IEnumerable`1, ResolutionContext)
+   at Workify.Services.JobListingService.FilterJobsAsync(JobSearchCriteriaDTO criteria) in /Users/divyanshusingh/Desktop/Workify_Project/Workify/Services/JobListingService.cs:line 89
+   at Workify.Controllers.JobListingController.FilterJobs(JobSearchCriteriaDTO criteria) in /Users/divyanshusingh/Desktop/Workify_Project/Workify/Controllers/JobListingController.cs:line 28
+2024-12-12 00:13:38.353 +05:30 [ERR] Error occurred while filtering jobs.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Workify.Models.JobListing, Workify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Workify.DTOs.JobListingDTO, Workify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+JobListing -> JobListingDTO
+Workify.Models.JobListing -> Workify.DTOs.JobListingDTO
+   at lambda_method377(Closure, JobListing, JobListingDTO, ResolutionContext)
+   at lambda_method376(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method376(Closure, Object, IEnumerable`1, ResolutionContext)
+   at Workify.Services.JobListingService.FilterJobsAsync(JobSearchCriteriaDTO criteria) in /Users/divyanshusingh/Desktop/Workify_Project/Workify/Services/JobListingService.cs:line 89
+   at Workify.Controllers.JobListingController.FilterJobs(JobSearchCriteriaDTO criteria) in /Users/divyanshusingh/Desktop/Workify_Project/Workify/Controllers/JobListingController.cs:line 28
+2024-12-12 00:13:52.348 +05:30 [ERR] Error occurred while filtering jobs.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Workify.Models.JobListing, Workify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Workify.DTOs.JobListingDTO, Workify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+JobListing -> JobListingDTO
+Workify.Models.JobListing -> Workify.DTOs.JobListingDTO
+   at lambda_method377(Closure, JobListing, JobListingDTO, ResolutionContext)
+   at lambda_method376(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method376(Closure, Object, IEnumerable`1, ResolutionContext)
+   at Workify.Services.JobListingService.FilterJobsAsync(JobSearchCriteriaDTO criteria) in /Users/divyanshusingh/Desktop/Workify_Project/Workify/Services/JobListingService.cs:line 89
+   at Workify.Controllers.JobListingController.FilterJobs(JobSearchCriteriaDTO criteria) in /Users/divyanshusingh/Desktop/Workify_Project/Workify/Controllers/JobListingController.cs:line 28
+2024-12-12 00:15:15.843 +05:30 [INF] Jobs filtered successfully.
+2024-12-12 00:16:59.464 +05:30 [INF] Jobs filtered successfully.
+12 00:16:59.464 +05:30] [Information] Jobs filtered successfully.
+[2024-12-12 01:01:04.296 +05:30] [Information] Starting the application...
+[2024-12-12 01:02:40.237 +05:30] [Warning] Failed to determine th2024-12-12 01:02:40.237 +05[2024-12-12 01:02:41.101 +05:30] [Information] User user2@g2024-12-12 01:02:41.101 +05:30 [I[2024-12-12 01:03:16.325 +05:30] [Information] Jo2024-12-12 01:03:16.325 +05:30 [INF] J[2024-12-12 01:07:13.569 +05:30] [Infor2024-12-12 01:07:13.569 +05:30 [INF] Job Listing up[2024-12-12 01:07:23.605 +05:2024-12-12 01:07:23.605 +05:30 [INF] Job Listing details r[2024-12-12 01:09:42024-12-12 01:09:44.965 +05:30 [INF] Job Listing updated successfully f[2024-12-2024-12-12 01:09:48.869 +05:30 [INF] Job Listing details retrieved for ID: 3
+2024-12-12 01:11:13.392 +05:30 [INF] Job Listing updated successfully for ID: 3
+2024-12-12 01:11:22.911 +05:30 [WRN] Job Listing not found with ID: 4
+2024-12-12 01:11:49.444 +05:30 [INF] Job Listing details retrieved for ID: 3
+2024-12-12 01:14:12.163 +05:30 [INF] Jobs filtered successfully.
+2024-12-12 01:14:24.786 +05:30 [INF] Jobs filtered successfully.
+2024-12-12 01:14:35.829 +05:30 [INF] Jobs filtered successfully.
+2024-12-12 01:14:44.422 +05:30 [INF] Jobs filtered successfully.
+2024-12-12 01:14:59.954 +05:30 [INF] Jobs filtered successfully.
+2024-12-12 01:16:02.347 +05:30 [INF] Jobs filtered successfully.
+2024-12-12 01:16:26.031 +05:30 [INF] Jobs filtered successfully.
+2024-12-12 01:16:40.087 +05:30 [INF] Jobs filtered successfully.
+2024-12-12 01:16:53.210 +05:30 [INF] Jobs filtered successfully.
+2024-12-12 01:17:46.648 +05:30 [INF] Jobs filtered successfully.
+2024-12-12 01:18:37.684 +05:30 [INF] Jobs filtered successfully.
+2024-12-12 01:19:30.566 +05:30 [INF] Jobs filtered successfully.
+2024-12-12 01:20:00.191 +05:30 [INF] Jobs filtered successfully.
+2024-12-12 01:21:22.523 +05:30 [INF] Job Listing details retrieved for ID: 2
+2024-12-12 01:21:37.564 +05:30 [INF] Job Listing details retrieved for ID: 3
+y.
+[2024-12-12 01:21:22.523 +05:30] [Information] Job Listing details retrieved for ID: 2
+[2024-12-12 01:21:37.564 +05:30] [Information] Job Listing details retrieved for ID: 3
+R] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5216: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean[2024-12-12 01:20:52.845 +05:30] [Fatal] Application failed t2024-12-12 01:20:52.845 +05:30 [FTL] Application failed to start.
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5216: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in /Users/divyanshusingh/Desktop/Workify_Project/Workify/Program.cs:line 147
+[2024-12-12 01:22:33.302 +05:30] [Information] Starting the application...
+[2024-12-12 01:22:33.400 +05:30] [Error] Hosting failed to start
+2024-12-12 01:22:33.400 +05:30 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5216: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean[2024-12-12 01:22:33.413 +05:30] [Fatal] Application failed t2024-12-12 01:22:33.413 +05:30 [FTL] Application failed to start.
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5216: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in /Users/divyanshusingh/Desktop/Workify_Project/Workify/Program.cs:line 147
+[2024-12-12 01:23:12.039 +05:30] [Information] Starting the application...
+[2024-12-12 01:23:12.128 +05:30] [Error] Hosting failed to start
+2024-12-12 01:23:12.128 +05:30 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5216: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean[2024-12-12 01:23:12.134 +05:30] [Fatal] Application failed t2024-12-12 01:23:12.134 +05:30 [FTL] Application failed to start.
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5216: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in /Users/divyanshusingh/Desktop/Workify_Project/Workify/Program.cs:line 147
+[2024-12-12 01:26:46.486 +05:30] [Information] Starting the application...
+[2024-12-12 01:27:02.259 +05:30] [Warning] Failed to determine th2024-12-12 01:27:02.259 +05[2024-12-12 01:28:23.823 +05:30] [Information] Jobs filtere2024-12-12 01:28[2024-12-12 01:28:30.165 +05:30] [Information] Jo2024-12-12 01:28:30.165 +0[2024-12-12 01:28:57.397 +05:30] [Infor2024-12-12 01:28:57.397 +05:30 [INF][2024-12-12 01:30:58.884 +05:2024-12-12 01:30:58.884 +05:30 [INF] Job Listing details r[2024-12-12 01:36:12024-12-12 01:36:10.376 +05:30 [INF] Jobs filtered succe[2024-12-2024-12-12 01:49:12.614 +05:30 [INF] User user2@gmail.com logged in successfully.
+2024-12-12 01:49:59.763 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.MissingMethodException: Attempted to invoke a deleted method implementation. This can happen when a method is deleted or its name or signature is changed while the application is running.
+   at Workify.DTOs.JobListingDTO.set_CompanyName(String value)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.ContinueDeserialize(ReadBufferState& bufferState, JsonReaderState& jsonReaderState, ReadStack& readStack, T& value)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsObjectAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder.BindModelAsync(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-12 01:52:06.614 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.MissingMethodException: Attempted to invoke a deleted method implementation. This can happen when a method is deleted or its name or signature is changed while the application is running.
+   at Workify.DTOs.JobListingDTO.set_CompanyName(String value)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.ContinueDeserialize(ReadBufferState& bufferState, JsonReaderState& jsonReaderState, ReadStack& readStack, T& value)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsObjectAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder.BindModelAsync(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-12 01:53:59.400 +05:30 [INF] User registered successfully with email: User9@gmail.com
+2024-12-12 01:54:37.694 +05:30 [WRN] Invalid login attempt for email: User9@gmail.com
+r email: User9@gmail.com
+[2024-12-12 02:01:56.622 +05:30] [Information] Starting the application...
+[2024-12-12 02:02:25.437 +05:30] [Warning] Failed to determine th2024-12-12 02:02:25.437 +05[2024-12-12 02:02:26.305 +05:30] [Error] Error occurred dur2024-12-12 02:02:26.305 +05:30 [ERR] Error occurred during login for email: User9@gmail.com
+BCrypt.Net.SaltParseException: Invalid salt version
+   at BCrypt.Net.BCrypt.HashPassword(String inputKey, String salt, Boolean enhancedEntropy, HashType hashType)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at Workify.Services.UserService.VerifyPassword(String password, String hashedPassword) in /Users/divyanshusingh/Desktop/Workify_Project/Workify/Services/UserService.cs:line 60
+   at Workify.Services.UserService.AuthenticateAsync(LoginUserDTO loginDto) in /Users/divyanshusingh/Desktop/Workify_Project/Workify/Services/UserService.cs:line 27
+   at Workify.Controllers.AuthController.Login(LoginUserDTO loginDto) in /Users/divyanshusingh/Desktop/Workify[2024-12-12 02:05:45.897 +05:30] [Error] Error occurred2024-12-12 02:05:45.897 +05:30 [ERR] Error occurred during login for email: User9@gmail.com
+BCrypt.Net.SaltParseException: Invalid salt version
+   at BCrypt.Net.BCrypt.HashPassword(String inputKey, String salt, Boolean enhancedEntropy, HashType hashType)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at Workify.Services.UserService.VerifyPassword(String password, String hashedPassword)
+   at Workify.Services.UserService.AuthenticateAsync(LoginUserDTO loginDto)
+   at Workify.Controllers.AuthController.Login(LoginUserDTO loginDto)
+[2024-12-12 02:09:47.448 +05:30] [Information] Starting the application...
+[2024-12-12 02:10:30.155 +05:30] [Warning] Failed to determine th2024-12-12 02:10:30.155 +05[2024-12-12 02:10:31.359 +05:30] [Information] User registe2024-12-12 02:10:31.359 +05:30 [INF] User regi[2024-12-12 02:11:02.025 +05:30] [Information] Us2024-12-12 02:11:02.025 +05:30 [INF] User Us[2024-12-12 02:18:05.684 +05:30] [Infor2024-12-12 02:18:05.684 +05:30 [INF] User User10@gmail[2024-12-12 02:18:29.219 +05:2024-12-12 02:18:29.219 +05:30 [INF] Job Listing added successfully[2024-12-12 02:18:42024-12-12 02:18:43.264 +05:30 [INF] Job Listing details retrieved f[2024-12-2024-12-12 02:20:55.716 +05:30 [INF] Jobs filtered successfully.
+2024-12-12 02:47:49.468 +05:30 [INF] User registered successfully with email: User11@gmail.com
+2024-12-12 02:48:22.914 +05:30 [INF] User User11@gmail.com logged in successfully.
+2024-12-12 02:51:28.198 +05:30 [ERR] Error occurred while retrieving job recommendations for Job Seeker ID: 1
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Workify.Models.JobListing, Workify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Workify.DTOs.JobListingDTO, Workify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+JobListing -> JobListingDTO
+Workify.Models.JobListing -> Workify.DTOs.JobListingDTO
+   at lambda_method419(Closure, JobListing, JobListingDTO, ResolutionContext)
+   at lambda_method418(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method418(Closure, Object, IEnumerable`1, ResolutionContext)
+   at Workify.Services.JobListingService.FilterJobsAsync(JobSearchCriteriaDTO criteria)
+   at Workify.Services.JobSeekerService.GetJobRecommendationsAsync(Int32 jobSeekerId)
+   at Workify.Controllers.JobSeekerController.GetJobRecommendations(Int32 id)
+2024-12-12 02:55:00.440 +05:30 [INF] User User11@gmail.com logged in successfully.
+2024-12-12 02:55:26.872 +05:30 [ERR] Error occurred while retrieving job recommendations for Job Seeker ID: 1
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Workify.Models.JobListing, Workify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Workify.DTOs.JobListingDTO, Workify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+JobListing -> JobListingDTO
+Workify.Models.JobListing -> Workify.DTOs.JobListingDTO
+   at lambda_method419(Closure, JobListing, JobListingDTO, ResolutionContext)
+   at lambda_method418(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method418(Closure, Object, IEnumerable`1, ResolutionContext)
+   at Workify.Services.JobListingService.FilterJobsAsync(JobSearchCriteriaDTO criteria)
+   at Workify.Services.JobSeekerService.GetJobRecommendationsAsync(Int32 jobSeekerId)
+   at Workify.Controllers.JobSeekerController.GetJobRecommendations(Int32 id)
+roller.GetJobRecommendations(Int32 id)
+[2024-12-12 02:57:13.813 +05:30] [Information] Starting the application...
+[2024-12-12 02:57:45.920 +05:30] [Warning] Failed to determine th2024-12-12 02:57:45.920 +05[2024-12-12 02:57:47.048 +05:30] [Information] User User11@2024-12-12 02:57:47.048 +05:30 [IN[2024-12-12 02:58:17.540 +05:30] [Information] Jo2024-12-12 02:58:17.540 +05:30 [INF] Job recommen[2024-12-12 02:58:24.280 +05:30] [Infor2024-12-12 02:58:24.280 +05:30 [INF] Job recommendations re[2024-12-12 03:02:56.530 +05:2024-12-12 03:02:56.530 +05:30 [INF] Job Seeker details r[2024-12-12 03:06:42024-12-12 03:06:42.147 +05:30 [INF] Applications retrieved successfully for JobSee[2024-12-2024-12-12 03:08:15.924 +05:30 [INF] User User10@gmail.com logged in successfully.
+2024-12-12 03:08:43.144 +05:30 [INF] Applications retrieved successfully for JobListingId: 1
+2024-12-12 03:09:27.106 +05:30 [INF] Application status updated successfully for ID: 1 to Approved
+2024-12-12 03:09:38.047 +05:30 [INF] Applications retrieved successfully for JobListingId: 1
+2024-12-12 03:10:14.636 +05:30 [INF] Application status updated successfully for ID: 2 to Rejected
+2024-12-12 03:10:29.057 +05:30 [INF] Applications retrieved successfully for JobListingId: 1
+2024-12-12 03:11:36.031 +05:30 [INF] User User11@gmail.com logged in successfully.
+2024-12-12 03:12:00.007 +05:30 [INF] Applications retrieved successfully for JobSeekerId: 1
+2024-12-12 03:12:14.940 +05:30 [INF] Applications retrieved successfully for JobSeekerId: 2
+2024-12-12 03:13:15.214 +05:30 [INF] Applications retrieved successfully for JobSeekerId: 1
+ 03:13:15.214 +05:30] [Information] Applications retrieved successfully for JobSeekerId: 1
+[2024-12-12 17:56:33.166 +05:30] [Information] Starting the application...
+2024-12-12 17:56:33.166 +05:30 [INF] Starting the application...
+[2024-12-12 18:14:40.775 +05:30] [Information] Starting the application...
+[2024-12-12 18:15:19.374 +05:30] [Warning] Failed to determine th2024-12-12 18:15:19.374 +05[2024-12-12 18:15:20.374 +05:30] [Information] Jobs filtere2024-12-12 18:15[2024-12-12 18:16:15.138 +05:30] [Information] Jo2024-12-12 18:16:15.138 +0[2024-12-12 18:16:24.707 +05:30] [Infor2024-12-12 18:16:24.707 +05:30 [INF][2024-12-12 18:16:38.915 +05:2024-12-12 18:16:38.915 +05:30 [INF] Jobs filt[2024-12-12 18:16:42024-12-12 18:16:47.677 +05:30 [INF] Jobs filtered succe[2024-12-2024-12-12 18:16:57.627 +05:30 [INF] Jobs filtered successfully.
+2024-12-12 18:17:05.790 +05:30 [INF] Jobs filtered successfully.
+2024-12-12 18:17:17.220 +05:30 [INF] Jobs filtered successfully.
+2024-12-12 18:17:23.886 +05:30 [INF] Jobs filtered successfully.
+2024-12-12 18:17:30.726 +05:30 [INF] Jobs filtered successfully.
+2024-12-12 18:17:41.182 +05:30 [INF] Jobs filtered successfully.
+2024-12-12 18:17:56.922 +05:30 [INF] Jobs filtered successfully.
+2024-12-12 18:32:15.710 +05:30 [INF] Jobs filtered successfully.
+2024-12-12 18:33:07.175 +05:30 [INF] Job Listing details retrieved for ID: 1
+12-12 18:33:07.175 +05:30] [Information] Job Listing details retrieved for ID: 1
+[2024-12-12 19:45:28.853 +05:30] [Information] Starting the application...
+2024-12-12 19:45:28.853 +05:30 [INF] Starting the application...
+[2024-12-12 19:55:06.434 +05:30] [Information] Starting the application...
+[2024-12-12 19:55:22.896 +05:30] [Warning] Failed to determine th2024-12-12 19:55:22.896 +05[2024-12-12 19:55:23.062 +05:30] [Information] Received req2024-12-12 19:55:23.062 +05:30 [[2024-12-12 19:55:23.062 +05:30] [Information] Fe2024-12-12 19:55:23.062 +[2024-12-12 19:55:24.021 +05:30] [Error2024-12-12 19:55:24.021 +05:30 [ERR] Error occurred while fetching all job listings.
+System.InvalidCastException: Unable to cast object of type 'System.Collections.Generic.List`1[Workify.Models.JobListing]' to type 'System.Collections.Generic.List`1[Workify.DTOs.JobListingResponseDTO]'.
+   at Workify.Services.JobListingService.GetAllJobListingsAsync() in /Users/divyanshusingh/Desktop/Workify_Project/Workify/Ser[2024-12-12 19:55:24.025 +05:30] [E2024-12-12 19:55:24.025 +05:30 [ERR] An error occurred while fetching all job listings.
+System.InvalidCastException: Unable to cast object of type 'System.Collections.Generic.List`1[Workify.Models.JobListing]' to type 'System.Collections.Generic.List`1[Workify.DTOs.JobListingResponseDTO]'.
+   at Workify.Services.JobListingService.GetAllJobListingsAsync() in /Users/divyanshusingh/Desktop/Workify_Project/Workify/Services/JobListingService.cs:line 99
+   at Workify.Controllers.JobListingController.GetAllJobListings() in /Users/divyanshusingh/Desktop/Workify_Project/Workify/Controllers/JobListingController.cs:line 29
+[2024-12-12 20:07:39.563 +05:30] [Information] Starting the application...
+[2024-12-12 20:07:50.589 +05:30] [Warning] Failed to determine th2024-12-12 20:07:50.589 +05[2024-12-12 20:07:51.462 +05:30] [Information] All JobListi2024-12-12 20:07:51.462 +05:[2024-12-12 20:11:09.381 +05:30] [Information] Us2024-12-12 20:11:09.381 +05:30 [INF] User Us[2024-12-12 20:11:38.091 +05:30] [Infor2024-12-12 20:11:38.091 +05:30 [INF] All emplo[2024-12-12 20:18:14.468 +05:2024-12-12 20:18:14.468 +05:30 [INF] User User10 logged[2024-12-12 20:18:22024-12-12 20:18:28.751 +05:30 [ERR] An exception occurred in the database while saving changes for context type 'Workify.Data.CareerCrafterDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Employers_Users_UserId". The conflict occurred in database "CareerCrafterDB", table "dbo.Users", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:9e7a7259-690f-4147-92fc-8dd8a4e41413
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Employers_Users_UserId". The conflict occurred in database "CareerCrafterDB", table "dbo.Users", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:9e7a7259-690f-4147-92fc-8dd8a4e41413
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken canc[2024-12-12 20:2024-12-12 20:18:28.756 +05:30 [ERR] Error occurred while adding employer for UserId: 0
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Employers_Users_UserId". The conflict occurred in database "CareerCrafterDB", table "dbo.Users", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:9e7a7259-690f-4147-92fc-8dd8a4e41413
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Workify.Repository.EmployerRepository.AddAsync(Employer employer) in /Users/divyanshusingh/Desktop/Workify_Project/Workify/Repository/EmployerRepository.cs:line 30
+   at Workify.Services.EmployerService.AddEmployerAsync(EmployerDTO employerDto) in /Users/divyanshusingh/Desktop/Workify_Project/Workify/Services/EmployerService.cs:line 45
+   at EmployerController.AddEmployer(EmployerDTO employerDto) in /Users/divyanshusingh/Desktop/Workify_Project/Workify/Controllers/EmployerController.[2024-12-122024-12-12 20:19:23.264 +05:30 [INF] Employer added successfully for UserId: 1[2024-12-12 20:21:47.144 +05:30 [INF] All employers retrieved successfully.
+2024-12-12 20:21:57.888 +05:30 [INF] Employer details retrieved for ID: 1
+2024-12-12 20:30:30.064 +05:30 [INF] All JobListings retrieved successfully.
+ings retrieved successfully.
+[2024-12-12 21:38:00.125 +05:30] [Information] Starting the application...
+[2024-12-12 21:38:07.961 +05:30] [Warning] Failed to determine th2024-12-12 21:38:07.961 +05[2024-12-12 21:38:08.801 +05:30] [Information] All JobListi2024-12-12 21:38:08.801 +05:[2024-12-12 21:38:57.204 +05:30] [Information] Us2024-12-12 21:38:57.204 +05:30 [INF] User Us[2024-12-12 21:40:46.227 +05:30] [Infor2024-12-12 21:40:46.227 +05:30 [INF] Job Listing added su[2024-12-12 21:41:11.000 +05:2024-12-12 21:41:11.000 +05:30 [INF] Job Listing details r[2024-12-12 21:45:02024-12-12 21:45:05.155 +05:30 [INF] All JobListings retrieved successfully.

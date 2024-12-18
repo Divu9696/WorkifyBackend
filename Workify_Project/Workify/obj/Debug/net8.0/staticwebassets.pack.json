@@ -1,0 +1,85 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/divyanshusingh/Desktop/Workify_Project/Workify/wwwroot/resumes/092b4e2e-2ffc-4b16-ab53-729e75f76d79.pdf",
+      "PackagePath": "staticwebassets/resumes/092b4e2e-2ffc-4b16-ab53-729e75f76d79.pdf"
+    },
+    {
+      "Id": "/Users/divyanshusingh/Desktop/Workify_Project/Workify/wwwroot/resumes/26c939e5-2037-435f-a511-1867911a7e30.pages",
+      "PackagePath": "staticwebassets/resumes/26c939e5-2037-435f-a511-1867911a7e30.pages"
+    },
+    {
+      "Id": "/Users/divyanshusingh/Desktop/Workify_Project/Workify/wwwroot/resumes/31691ae0-facd-4bc5-ac08-8f79f7894a5b.pdf",
+      "PackagePath": "staticwebassets/resumes/31691ae0-facd-4bc5-ac08-8f79f7894a5b.pdf"
+    },
+    {
+      "Id": "/Users/divyanshusingh/Desktop/Workify_Project/Workify/wwwroot/resumes/39c1cb7e-9922-4bca-a4b0-b6bec840b866.pdf",
+      "PackagePath": "staticwebassets/resumes/39c1cb7e-9922-4bca-a4b0-b6bec840b866.pdf"
+    },
+    {
+      "Id": "/Users/divyanshusingh/Desktop/Workify_Project/Workify/wwwroot/resumes/40d44f17-ffe5-48bf-92de-fbcbe64c6ce0.pdf",
+      "PackagePath": "staticwebassets/resumes/40d44f17-ffe5-48bf-92de-fbcbe64c6ce0.pdf"
+    },
+    {
+      "Id": "/Users/divyanshusingh/Desktop/Workify_Project/Workify/wwwroot/resumes/5e954c2a-6651-4199-9304-8b388ba280e4.pdf",
+      "PackagePath": "staticwebassets/resumes/5e954c2a-6651-4199-9304-8b388ba280e4.pdf"
+    },
+    {
+      "Id": "/Users/divyanshusingh/Desktop/Workify_Project/Workify/wwwroot/resumes/70c4a2a5-a123-440d-8c4f-6dcc22de5370.pages",
+      "PackagePath": "staticwebassets/resumes/70c4a2a5-a123-440d-8c4f-6dcc22de5370.pages"
+    },
+    {
+      "Id": "/Users/divyanshusingh/Desktop/Workify_Project/Workify/wwwroot/resumes/72cb9814-9168-44c1-88de-ec1746bd9a32.pdf",
+      "PackagePath": "staticwebassets/resumes/72cb9814-9168-44c1-88de-ec1746bd9a32.pdf"
+    },
+    {
+      "Id": "/Users/divyanshusingh/Desktop/Workify_Project/Workify/wwwroot/resumes/7908d009-acb6-47f5-9a02-42b1fbfcf2b9.pdf",
+      "PackagePath": "staticwebassets/resumes/7908d009-acb6-47f5-9a02-42b1fbfcf2b9.pdf"
+    },
+    {
+      "Id": "/Users/divyanshusingh/Desktop/Workify_Project/Workify/wwwroot/resumes/89829f6a-94b1-4ded-858e-04270d18b211.pdf",
+      "PackagePath": "staticwebassets/resumes/89829f6a-94b1-4ded-858e-04270d18b211.pdf"
+    },
+    {
+      "Id": "/Users/divyanshusingh/Desktop/Workify_Project/Workify/wwwroot/resumes/b563a703-8a57-4a68-af35-2221eeaf6511.pdf",
+      "PackagePath": "staticwebassets/resumes/b563a703-8a57-4a68-af35-2221eeaf6511.pdf"
+    },
+    {
+      "Id": "/Users/divyanshusingh/Desktop/Workify_Project/Workify/wwwroot/resumes/d867b167-82fe-4309-a3be-48e434e1b608.pdf",
+      "PackagePath": "staticwebassets/resumes/d867b167-82fe-4309-a3be-48e434e1b608.pdf"
+    },
+    {
+      "Id": "/Users/divyanshusingh/Desktop/Workify_Project/Workify/wwwroot/resumes/ddff9a56-62bc-4502-86ed-2914db6bb6bc.pdf",
+      "PackagePath": "staticwebassets/resumes/ddff9a56-62bc-4502-86ed-2914db6bb6bc.pdf"
+    },
+    {
+      "Id": "/Users/divyanshusingh/Desktop/Workify_Project/Workify/wwwroot/resumes/e1a23be9-b248-4042-a21c-2c68825adfca.pdf",
+      "PackagePath": "staticwebassets/resumes/e1a23be9-b248-4042-a21c-2c68825adfca.pdf"
+    },
+    {
+      "Id": "/Users/divyanshusingh/Desktop/Workify_Project/Workify/wwwroot/resumes/e73fae26-0adb-477b-85da-2255bea1d42a.pdf",
+      "PackagePath": "staticwebassets/resumes/e73fae26-0adb-477b-85da-2255bea1d42a.pdf"
+    },
+    {
+      "Id": "/Users/divyanshusingh/Desktop/Workify_Project/Workify/wwwroot/resumes/ead6f963-413b-4b1a-b05a-23b3ada2cc45.pages",
+      "PackagePath": "staticwebassets/resumes/ead6f963-413b-4b1a-b05a-23b3ada2cc45.pages"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Workify.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.Workify.props",
+      "PackagePath": "build\\Workify.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Workify.props",
+      "PackagePath": "buildMultiTargeting\\Workify.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Workify.props",
+      "PackagePath": "buildTransitive\\Workify.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

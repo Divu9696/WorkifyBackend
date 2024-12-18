@@ -1,0 +1,43 @@
+[2024-12-13 01:43:40.068 +05:30] [Information] All JobListings retrieved successfully.
+[2024-12-13 02:11:45.278 +05:30] [Information] User registered successfully w2024-12-13 02:11:45.278 +05[2024-12-13 02:38:11.065 +05:30] [Information] User registered succ2024-12-13 02:38:11.065 +05:30 [INF] U[2024-12-13 03:04:49.212 +05:30] [Warning] Invalid login 2024-12-13 03:04:49.212 +[2024-12-13 03:05:31.353 +05:30] [Error] Error occu2024-12-13 03:05:31.353 +05:30 [ERR] Error occurred during login for email: user1@gmail.com
+BCrypt.Net.SaltParseException: Invalid salt version
+   at BCrypt.Net.BCrypt.HashPassword(String inputKey, String salt, Boolean enhancedEntropy, HashType hashType)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at Workify.Services.UserService.VerifyPassword(String password, String hashedPassword) in /Users/divyanshusingh/Desktop/Workify_Project/Workify/Services/UserService.cs:line 68
+   at Workify.Services.UserService.AuthenticateAsync(LoginUserDTO loginDto) in /Users/divyanshusingh/Desktop/Workify_Project/Workify/Services/UserService.cs:line 27
+   at Workify.Controllers.AuthController.Login(LoginUserDTO loginDto) in /Users/divyanshusingh/Desktop/Workify_Project[2024-12-13 03:06:52.561 +05:30] [Information] 2024-12-13 03:06:52.561 +05:30 [INF] User registered succ[2024-12-13 03:07:25.356 +05:30] [War2024-12-13 03:07:25.356 +05:30 [WRN] Invalid login attem[2024-12-13 03:07:57.368 +05:302024-12-13 03:07:57.368 +05:30 [INF] User admin@gmail.com log[2024-12-13 03:08:24.2024-12-13 03:08:24.983 +05:30 [ERR] Error occurred while retrieving all Job Seekers.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Workify.Models.JobSeeker, Workify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Workify.DTOs.JobSeekerDTO, Workify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+JobSeeker -> JobSeekerDTO
+Workify.Models.JobSeeker -> Workify.DTOs.JobSeekerDTO
+   at lambda_method370(Closure, JobSeeker, JobSeekerDTO, ResolutionContext)
+   at lambda_method369(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method369(Closure, Object, IEnumerable`1, ResolutionContext)
+   at Workify.Services.JobSeekerService.GetAllJobSeekersAsync() in /Users/divyanshusingh/Desktop/Workify_Project/Workify/Services/JobSeekerService.cs:line 41
+   at Workify.Controllers.JobSeekerController.GetAllJobSeekers() in /Users/divyanshusingh/Desktop/Workify_Project/Workify/Controllers/JobSeekerContro[2024-12-13 03:122024-12-13 03:12:56.011 +05:30 [INF] User admin@gmail.com logged in success[2024-12024-12-13 03:13:14.936 +05:30 [ERR] Error occurred while retrieving all Job Seekers.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Workify.Models.JobSeeker, Workify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Workify.DTOs.JobSeekerDTO, Workify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+JobSeeker -> JobSeekerDTO
+Workify.Models.JobSeeker -> Workify.DTOs.JobSeekerDTO
+   at lambda_method370(Closure, JobSeeker, JobSeekerDTO, ResolutionContext)
+   at lambda_method369(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method369(Closure, Object, IEnumerable`1, ResolutionContext)
+   at Workify.Services.JobSeekerService.GetAllJobSeekersAsync()
+   at Workify.Controllers.JobSeekerController.GetAllJobSeekers()
+[2024-12-13 03:19:32.330 +05:30] [Information] Starting the application...
+[2024-12-13 03:19:46.066 +05:30] [Warning] Failed to determine th2024-12-13 03:19:46.066 +05[2024-12-13 03:20:12.279 +05:30] [Information] User admin@g2024-12-13 03:20:12.279 +05:30 [I[2024-12-13 03:20:49.911 +05:30] [Information] Ad2024-12-13 03:20:49.911 +05:30 [INF] Admi[2024-12-13 03:20:58.704 +05:30] [Infor2024-12-13 03:20:58.704 +05:30 [INF] All Job See[2024-12-13 14:33:05.585 +05:2024-12-13 14:33:05.585 +05:30 [INF] User admin@gmail.com logge[2024-12-13 14:33:22024-12-13 14:33:22.533 +05:30 [INF] All Job Seekers retrieved succe[2024-12-2024-12-13 14:33:44.654 +05:30 [INF] All employers retrieved successfully.
+

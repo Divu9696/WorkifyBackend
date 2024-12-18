@@ -1,0 +1,32 @@
+[2024-12-14 15:03:28.513 +05:30] [Information] Starting the application...
+[2024-12-14 15:11:34.038 +05:30] [Warning] Failed to determine th2024-12-14 15:11:34.038 +05[2024-12-14 15:11:35.272 +05:30] [Information] User Toxic@g2024-12-14 15:11:35.272 +05:30 [I[2024-12-14 15:12:03.924 +05:30] [Warning] Invali2024-12-14 15:12:03.924 +05:30 [WRN] Invalid[2024-12-14 15:12:14.968 +05:30] [Informati2024-12-14 15:12:14.968 +05:30 [INF] User Toxic1@g[2024-12-14 15:12:43.450 +05:30] 2024-12-14 15:12:43.450 +05:30 [INF] All employers r[2024-12-14 15:13:34.942024-12-14 15:13:34.945 +05:30 [INF] Employer added successfully f[2024-12-14 12024-12-14 15:18:18.464 +05:30 [INF] User Toxic1@gmail.com logged in successfull[202024-12-14 15:18:53.820 +05:30 [INF] All employers retrieved successfully.
+2024-12-14 15:19:36.124 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.MissingMethodException: Attempted to invoke a deleted method implementation. This can happen when a method is deleted or its name or signature is changed while the application is running.
+   at EmployerController.AddEmployer(EmployerDTO employerDto)
+   at lambda_method128(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+t context)
+[2024-12-14 15:31:36.498 +05:30] [Information] Starting the application...
+[2024-12-14 15:32:06.545 +05:30] [Warning] Failed to determine th2024-12-14 15:32:06.545 +05[2024-12-14 15:32:07.731 +05:30] [Information] User Toxic1@2024-12-14 15:32:07.731 +05:30 [IN[2024-12-14 15:32:30.455 +05:30] [Information] Al2024-12-14 15:32:30.455 +05:30 [INF][2024-12-14 15:33:22.216 +05:30] [Infor2024-12-14 15:33:22.216 +05:30 [INF] Employer adde[2024-12-14 15:43:26.334 +05:2024-12-14 15:43:26.334 +05:30 [INF] Employer details r[2024-12-14 22:27:02024-12-14 22:27:03.448 +05:30 [INF] User Toxic1@gmail.com logged in succe[2024-12-2024-12-14 22:27:21.752 +05:30 [INF] All employers retrieved successfully.
+2024-12-14 22:29:09.034 +05:30 [INF] Employer details retrieved for ID: 3
+2024-12-14 22:29:23.245 +05:30 [INF] Employer details retrieved for ID: 2
+2024-12-14 22:29:29.416 +05:30 [INF] Employer details retrieved for ID: 1
+er details retrieved for ID: 1
+[2024-12-14 22:35:07.115 +05:30] [Information] Starting the application...
+[2024-12-14 22:35:37.891 +05:30] [Warning] Failed to determine th2024-12-14 22:35:37.891 +05[2024-12-14 22:35:39.033 +05:30] [Information] User Toxic1@2024-12-14 22:35:39.033 +05:30 [IN[2024-12-14 22:35:59.270 +05:30] [Information] Al2024-12-14 22:35:59.270 +05:30 [INF][2024-12-14 23:00:32.376 +05:30] [Infor2024-12-14 23:00:32.376 +05:30 [INF] All employers retrieved successfully.
+[2024-12-14 23:01:02.028 +05:30] [Information] Starting the application...
+[2024-12-14 23:01:35.408 +05:30] [Warning] Failed to determine th2024-12-14 23:01:35.408 +05[2024-12-14 23:01:36.609 +05:30] [Information] User Toxic1@2024-12-14 23:01:36.609 +05:30 [IN[2024-12-14 23:02:06.398 +05:30] [Information] Al2024-12-14 23:02:06.398 +05:30 [INF] All employers retrieved successfully.

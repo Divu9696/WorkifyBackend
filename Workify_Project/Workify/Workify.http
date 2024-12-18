@@ -1,0 +1,6 @@
+@Workify_HostAddress = http://localhost:5216
+
+GET {{Workify_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
